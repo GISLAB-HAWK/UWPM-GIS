@@ -1,0 +1,38 @@
+project:
+  type: book
+  output-dir: _book
+
+execute:
+  freeze: auto
+  
+book:
+  title: "UWPM-GIS"
+  page-footer:
+   left: |
+      Übungaufgaben
+   right: |
+      This book was built with <a href="https://quarto.org/">Quarto</a>.
+  author: "Paul Magdon"
+  description: "Übungsaufgaben für das Modul UWPM-GIS"
+  repo-url: https://github.com/GISLAB-HAWK/fpm08
+  search: true
+  chapters:
+    - index.qmd
+    - uebung01.qmd
+    - uebung04.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+    lang: de
+#  pdf:
+#    documentclass: scrreprt
+#    lang: de  # Für PDF kannst du hier auch die `lang`-Option setzen, falls notwendig
+
+editor: source
+

@@ -1,0 +1,4 @@
+## Vorwort {.unnumbered}
+
+Hier finden sie die Materialien für das Wahlpflichtmodul *"GIS"* des
+M.Sc. Studiengangs urbanes Baum- und Waldmanagement an der HAWK in Göttingen.
